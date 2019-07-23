@@ -1,1 +1,32 @@
-print('hello world')
+# print('hello world')
+
+
+# class Person:
+#     def __init__(self, name):
+#         self._name = name
+#
+#     def __setattr__(self, attr, value):
+#         if attr == 'name':
+#             print('change')
+#             attr = '_name'
+#         self.__dict__[attr] = value
+# 
+#     def __getattribute__(self, attr):
+#         if attr == 'name':
+#             print('fetch....')
+#             attr
+#         else:
+#             raise AttributeError
+#
+#     def __delattr__(self, attr):
+#         if attr == 'name':
+#             print('delete...')
+#             attr = '_name'
+#         del self.__dict__[attr]
+#
+#
+# He = Person('Andrew')
+#
+# print(He.name)
+# He.name = 'Lucy'
+# print(He.name)
